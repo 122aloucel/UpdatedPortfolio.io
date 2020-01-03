@@ -1,0 +1,22 @@
+.lines {
+  height: 50px;
+  padding-right: 30px;
+}
+.top {
+  width: 98vw;
+  background-color: #4175E3;
+  height: 100px;
+}
+.main-image {
+  height: 100px;
+}
+#span1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+div.some-boongas {
+  font-size: 20px;
+}
+.bee {
+  height: 700px
+}
