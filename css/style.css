@@ -1,3 +1,6 @@
+body {
+  background-color: #BEDFB2
+}
 .lines {
   height: 50px;
   padding-right: 30px;
@@ -13,10 +16,83 @@
 #span1 {
   font-size: 30px;
   font-weight: bold;
+  word-spacing: 1.5em;
 }
-div.some-boongas {
+.some-boongas {
   font-size: 20px;
 }
 .bee {
-  height: 700px
+  height: 500px
+}
+@keyframes blurFilter {
+  from {
+    filter: blur(20px)
+  }
+  to {
+    filter:blur(0px);
+  }
+}
+img.bee {
+  animation: blurFilter 1.75s forwards;
+  transition: height 1.75s, width 1.5;
+}
+img.bee:hover {
+  transition: height 1.75s, width 1.5s;
+  height: 750px;
+}
+#dolphin:hover .caption{
+   visibility: visible;
+}
+.gallery-item{
+    border:2px dashed black;
+    width:600px;
+    margin:25px;
+    padding:10px;
+  }
+  .caption{
+    visibility:hidden;
+}
+.dolphin{
+  width: 597px;
+}
+a.boi:link {
+  color: #93E5AB;
+}
+a.boi:visited {
+  color: #65B891;
+}
+a.boi:hover {
+  color: #4E878C;
+}
+a.boi:active {
+  color: #00241B;
+}
+button {
+    background-color: #3399ff;
+    color: white;
+    border: none;
+    padding: 15px 35px;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 15px;
+    outline: none;
+}
+.clickable:hover {
+    background-color:cyan;
+    transition: background-color 2s, width 3s, color 0.5s;
+}
+.clickable:active {
+    background-color:DarkBlue;
+    transition: background-color 2s, width 3s, color 0.5s;
+}
+.row{
+    display:flex;
+}
+
+.col-3{
+    border:solid;
+    border-color:black;
+    height:150px;
+    width:150px;
+    padding:10px 10px 10px 10px;
 }
